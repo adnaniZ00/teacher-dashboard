@@ -1,13 +1,3 @@
-# from django.urls import path
-# from .views import teacher_summary, weekly_trends, teacher_detail, home
-
-# urlpatterns = [
-#     path("", home),
-#     path("summary/", teacher_summary),
-#     path("weekly-trends/", weekly_trends),
-#     path("teacher/<str:teacher_id>/", teacher_detail),
-# ]
-
 from django.urls import path
 from .views import TeacherSummaryView, WeeklyTrendsView, TeacherDetailView, home
 

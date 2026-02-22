@@ -1,17 +1,3 @@
-// import axios from "axios";
-
-// const API = axios.create({
-//   baseURL: "http://127.0.0.1:8000/api/",
-// });
-
-// export const getTeacherSummary = (search = "", page = 1) =>
-//   API.get(`summary/?search=${search}&page=${page}`);
-
-// export const getWeeklyTrends = () => API.get("weekly-trends/");
-
-// export const getTeacherDetail = (teacherId) => API.get(`teacher/${teacherId}/`);
-
-
 import axios from 'axios';
 
 // Update this if your backend runs on a different port
